@@ -1,0 +1,8 @@
+method,automatic_pct,selective_error_pct,incorrect_per_1000,false_negative_per_1000,review_per_1000
+ML,100.0,9.9,99.461,44.916,0.0
+Rules+ML,100.0,10.1,101.212,47.643,0.0
+Selective-ML,77.8,4.8,37.441,21.616,221.717
+ML|val-coverage,72.3,3.8,28.047,16.734,277.205
+Quality-aware,69.1,5.6,38.754,33.603,309.461
+ML|same-mask,69.1,5.6,38.855,33.805,309.461
+Rules-only,66.8,6.1,40.673,36.296,332.492
