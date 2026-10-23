@@ -1,0 +1,41 @@
+{
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    107,
+    131,
+    157
+  ],
+  "members_train": 2200,
+  "validation_claims_per_seed": 2199,
+  "test_claims_per_seed": 3300,
+  "levels": [
+    0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "threshold_target": 0.03,
+  "corruption": {
+    "mixed_missing_dates": 0.55,
+    "mixed_missing_products": 0.4,
+    "mixed_mutation_dates": 0.13,
+    "mixed_mutation_products": 0.11,
+    "stress_missing_only": 0.6,
+    "stress_mutation_only": 0.6
+  },
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "dataset": "synthetic only, illustrative non-operational rules",
+  "tuning": "empirical validation threshold without formal guarantee"
+}
